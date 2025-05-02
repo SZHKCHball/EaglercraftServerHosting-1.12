@@ -1,0 +1,13 @@
+{
+    "name": "EaglercraftServerHosting-1.12-main",
+    "dockerFile": "Dockerfile",
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+      "ms-azuretools.vscode-docker",
+      "ms-vscode.cpptools"
+    ],
+    "postCreateCommand": "bash setup.sh"
+  }
+  
