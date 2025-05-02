@@ -1,4 +1,4 @@
 #!/bin/bash
 
-cd bungee && sudo java -jar bungee.jar &git
+cd bungee && sudo java -jar bungee.jar &
 cd server && sudo java -jar server.jar
